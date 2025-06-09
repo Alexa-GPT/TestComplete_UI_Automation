@@ -1,0 +1,2887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{38138B5A-2DCA-4A32-B887-79CF0153D880}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{DD0873D8-685B-427B-876D-CBBCAD04688A}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{F1541E60-AC2C-4306-924D-0CE2D4522CA6}">
+								<Image FileName="1754958129" Left="-11" Top="-11" Right="1925" Bottom="1037" />
+								<TypeInfo Item0="{D712286F-BBFD-4E4A-BE84-F15F30C76B31}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLoginAlexaTranslationsAI" Key="{F15C554E-23D0-42F7-87AC-346D01C139A5}">
+								<Image FileName="515462792" Left="-3" Top="84" Right="1917" Bottom="1029" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="*.alexatranslations.com/*/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxEmail" Key="{DEB29803-13FE-4C72-9D25-3B8F55D9F301}">
+										<Image FileName="515462792" Left="773" Top="432" Right="1141" Bottom="488" />
+										<TypeInfo Item0="{15B75F54-AF16-4B4D-873F-23354FEEB5C9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[2]//input[contains(@class, &apos;MuiInputBase-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{A2B2C254-9637-4A2B-BBD1-63B647EC44BF}">
+										<Image FileName="-656923582" Left="-3" Top="84" Right="1917" Bottom="1029" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;Click here to submit feedback&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{719487AC-F26A-4C43-8842-D8683BEEB78A}">
+										<Image FileName="-1629190155" Left="773" Top="512" Right="1085" Bottom="568" />
+										<TypeInfo Item0="{15B75F54-AF16-4B4D-873F-23354FEEB5C9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]//input[contains(@class, &apos;MuiInputBase-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLogin" Key="{20CFB032-01F3-4C59-8F75-4B59DC267169}">
+										<Image FileName="-91432012" Left="773" Top="646" Right="1141" Bottom="826" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogin" Key="{57D05D83-4425-4360-87D6-256D6BCEECCD}">
+										<Image FileName="351501099" Left="684" Top="704" Right="1236" Bottom="767" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/button[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNotistackSnackbar" Key="{00FCA560-BA85-41CA-92AA-0D8730406418}">
+										<Image FileName="-419918103" Left="1411" Top="169" Right="1866" Bottom="223" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#notistack-snackbar" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[text()=&quot;You&apos;re now logged out. See you again soon!&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;go946087465&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLogin2" Key="{42C12F29-8C71-4E23-B7B6-0C0C466FD3EF}">
+										<Image FileName="1214805807" Left="665" Top="700" Right="1217" Bottom="970" />
+										<TypeInfo Item0="{93CCCC87-F802-4779-A4E1-F2564CE7DEE9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmail2" Key="{BA951788-31C0-4317-9469-25D9DC6D9EFD}">
+										<Image FileName="861898453" Left="665" Top="379" Right="1217" Bottom="463" />
+										<TypeInfo Item0="{C03B8FC8-045C-4715-94E8-7916C729969F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[2]//input[contains(@class, &apos;MuiInputBase-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword2" Key="{961526DA-432A-493A-AD1F-BC3736E45BD8}">
+										<Image FileName="861898453" Left="665" Top="499" Right="1133" Bottom="583" />
+										<TypeInfo Item0="{C03B8FC8-045C-4715-94E8-7916C729969F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]//input[contains(@class, &apos;MuiInputBase-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelRememberMe" Key="{6FCC961C-CD99-4408-B1E5-CD640A4B3006}">
+										<Image FileName="-116658036" Left="762" Top="584" Right="1125" Bottom="622" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Remember me&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[contains(@class, &apos;MuiFormControlLabel-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkbox" Key="{FD16FF7A-C603-4441-A182-8E3B75B6C422}">
+										<Image FileName="-116658036" Left="762" Top="584" Right="800" Bottom="622" />
+										<TypeInfo Item0="{E92C72FC-78D6-43B2-8DE3-F93406B27AE7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;PrivateSwitchBase-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNeedHelp" Key="{10F2A5AE-1487-4B0C-976A-FB942DF51072}">
+										<Image FileName="376154134" Left="0" Top="205" Right="1920" Bottom="1008" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;css-1yzc1ij&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmail3" Key="{815C3852-D17A-4F30-BA38-DBBCBE58806E}">
+										<Image FileName="-1652911442" Left="695" Top="394" Right="1247" Bottom="478" />
+										<TypeInfo Item0="{C03B8FC8-045C-4715-94E8-7916C729969F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;wissem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[2]//input[contains(@class, &apos;MuiInputBase-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword3" Key="{C8466932-A69A-470B-B901-F0C57273ECB3}">
+										<Image FileName="1542280366" Left="695" Top="514" Right="1163" Bottom="598" />
+										<TypeInfo Item0="{C03B8FC8-045C-4715-94E8-7916C729969F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Easy21943975x.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]//input[contains(@class, &apos;MuiInputBase-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelForgotPassword" Key="{EB557229-DD89-4E80-9182-91D1740D390D}">
+										<Image FileName="716599046" Left="654" Top="776" Right="1206" Bottom="812" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Forgot password?&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/div[contains(@class, &apos;MuiBox-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;forget-password&apos;)]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkGetInTouch" Key="{12D1CEE3-5909-4F5B-BBFA-98F8C4F689E3}">
+										<Image FileName="-247982539" Left="905" Top="299" Right="1033" Bottom="328" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Get in touch&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/form//p/a[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/form//div/p/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinueWithSso" Key="{88207459-C160-4745-9410-DCBB91A581EC}">
+										<Image FileName="828746175" Left="654" Top="896" Right="1206" Bottom="959" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Continue with SSO&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/a/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[2]/button[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;sso&apos;)]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogIn2" Key="{E0802649-9EC7-4C68-8A5E-EE79DA03D3D9}">
+										<Image FileName="945480363" Left="654" Top="662" Right="1206" Bottom="725" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Log in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/button[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUsernameOrEmailRequired" Key="{90333E4D-AF52-4668-B14F-12A4C7C2BC52}">
+										<Image FileName="1809148057" Left="716" Top="450" Right="1226" Bottom="480" />
+										<TypeInfo Item0="{93CCCC87-F802-4779-A4E1-F2564CE7DEE9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Username or Email required&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[contains(@class, &apos;MuiFormHelperText-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/form//div[2]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePasswordRequired" Key="{4C0F4629-6A02-47DD-A24F-E36690C89E14}">
+										<Image FileName="1942511704" Left="716" Top="587" Right="1226" Bottom="617" />
+										<TypeInfo Item0="{93CCCC87-F802-4779-A4E1-F2564CE7DEE9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Password required&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]//p[contains(@class, &apos;MuiFormHelperText-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUsernameOrEmailRequired2" Key="{29C5C90D-E842-4E4E-83C9-F0BC3A298302}">
+										<Image FileName="1500525424" Left="716" Top="433" Right="1226" Bottom="463" />
+										<TypeInfo Item0="{93CCCC87-F802-4779-A4E1-F2564CE7DEE9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Username or Email required&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[2]//p[contains(@class, &apos;MuiFormHelperText-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/form//div[2]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePasswordRequired2" Key="{C2E46AF9-93F2-4755-8BC4-0CA4ADC8433E}">
+										<Image FileName="1423933341" Left="716" Top="587" Right="1226" Bottom="617" />
+										<TypeInfo Item0="{93CCCC87-F802-4779-A4E1-F2564CE7DEE9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Password required&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]//p[contains(@class, &apos;MuiFormHelperText-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLogin3" Key="{E6A327FA-EBE2-46D6-B23B-96BECF3F3508}">
+										<Image FileName="-634544242" Left="695" Top="734" Right="1247" Bottom="1004" />
+										<TypeInfo Item0="{93CCCC87-F802-4779-A4E1-F2564CE7DEE9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelYouReNowLoggedOutSeeYou" Key="{29AB2661-1763-4EFB-999C-49640883FCD8}">
+										<Image FileName="1370903704" Left="1568" Top="95" Right="1839" Bottom="131" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&quot;You&apos;re now logged out. See you again soon!&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div[contains(@class, &apos;MuiAlert-message&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLoginAlexaTranslationsAI2" Key="{816A758D-6A73-4E7F-B830-6A75C15E1C46}">
+								<Image FileName="1271949612" Left="8" Top="95" Right="1928" Bottom="1040" />
+								<TypeInfo Item0="{1781C689-5179-43B1-962A-5F2A3013D1DD}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="*.alexatranslations.com/en/translate/text" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{C1DB9EE4-B957-46FF-9B3A-953E2970B8AD}">
+										<Image FileName="1271949612" Left="58" Top="102" Right="613" Bottom="138" />
+										<TypeInfo Item0="{93CCCC87-F802-4779-A4E1-F2564CE7DEE9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;MuiAlert-message&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDetectLanguage" Key="{52DFF1CE-BE2A-4730-BF26-CB6F94BEB41E}">
+										<Image FileName="743057785" Left="25" Top="189" Right="174" Bottom="237" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Detect language&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEnglish" Key="{E4594A71-A84E-47F4-B565-AE97DCC38CE1}">
+										<Image FileName="5272847" Left="174" Top="141" Right="264" Bottom="189" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;English&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMicNoneOutlined" Key="{2F01A1D8-75F7-4CA1-B7E3-D1EC0B79FE1B}">
+										<Image FileName="-2104584801" Left="21" Top="203" Right="937" Bottom="676" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;MuiBox-root&apos;)]/div/div[contains(@class, &apos;MuiBox-root&apos;)]//div[2]/div[contains(@class, &apos;MuiBox-root&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textarea" Key="{B1C1EBCA-79BC-4724-A60E-33160B98B4CD}">
+										<Image FileName="-2104584801" Left="53" Top="227" Right="886" Bottom="250" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonFrench" Key="{91637CDA-34A3-470F-9625-985C9DE04E18}">
+										<Image FileName="-475986307" Left="1028" Top="139" Right="1118" Bottom="187" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//div[2]/div//button[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSpanish" Key="{2B95E611-7032-4EA2-8EA0-16BBED1CA070}">
+										<Image FileName="-1861001296" Left="1118" Top="139" Right="1208" Bottom="187" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//div[2]/div//button[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageChatgpt" Key="{DECF9CF9-C281-4ACD-B039-CA48C8C5232C}">
+								<Image FileName="799177215" Left="-3" Top="84" Right="1917" Bottom="1029" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://chatgpt.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeIEnterValidUsernameArgAn" Key="{3844B286-14B3-4AF9-8A4D-0767CD449D5A}">
+										<Image FileName="799177215" Left="787" Top="676" Right="1164" Bottom="693" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;&quot;I enter valid username {arg} and password {arg}&quot;&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;hljs-string&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDocumentTranslationAlexaTran" Key="{0AE5B2DF-1EDF-4BFB-8F85-5BE5AA56020C}">
+								<Image FileName="885683792" Left="11" Top="141" Right="1931" Bottom="1018" />
+								<TypeInfo Item0="{1781C689-5179-43B1-962A-5F2A3013D1DD}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="*.alexatranslations.com/*/translate/document" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{18E63535-0D1F-4BA8-B00B-A192A12704FD}">
+										<Image FileName="885683792" Left="86" Top="151" Right="918" Bottom="205" />
+										<TypeInfo Item0="{93CCCC87-F802-4779-A4E1-F2564CE7DEE9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;alert&apos;]/div[contains(@class, &apos;MuiAlert-message&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerTranslate" Key="{8C3B5DF6-E2B4-4079-A0FD-4CC97CFE6238}">
+										<Image FileName="-1269835345" Left="0" Top="205" Right="1920" Bottom="310" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Translate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;MuiStack-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelWm" Key="{991FFE23-1DB8-42BF-95D0-35ED666D4D72}">
+										<Image FileName="-1269835345" Left="1715" Top="228" Right="1775" Bottom="288" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;WM&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;MuiAvatar-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWissem" Key="{425E6185-6F1D-4C44-AAEA-04280078D6B1}">
+										<Image FileName="1044894793" Left="1323" Top="313" Right="1848" Bottom="969" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;wissem&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;menu&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//ul[contains(@class, &apos;MuiList-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogout" Key="{5CD85801-5BA2-47A0-9969-A3587F663CB8}">
+										<Image FileName="1044894793" Left="1347" Top="873" Right="1824" Bottom="945" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;logout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;menu-logout&apos;]/li[@role=&apos;menuitem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;menu-logout&apos;]/li[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;menu-logout&apos;]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLogout" Key="{16DF0A01-6984-46A7-B224-2FC02FF0E30F}">
+										<Image FileName="1044894793" Left="1371" Top="891" Right="1500" Bottom="927" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Logout&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;MuiStack-root&apos;)]//div[contains(@class, &apos;MuiStack-root&apos;)]/div[@role=&apos;tooltip&apos;]//ul//a[@id=&apos;menu-logout&apos;]/li/div[contains(@class, &apos;MuiStack-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;menu-logout&apos;]//div" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;menu&apos;]//a[@id=&apos;menu-logout&apos;]/li/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSettings" Key="{2B4211BB-57D2-42CE-99A7-B69C59B38370}">
+										<Image FileName="-1039234819" Left="1733" Top="215" Right="1769" Bottom="251" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;settings&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div[2]/div[3]//span[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div[2]/div[3]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLanguage" Key="{64FFE0D6-255C-4310-9F1B-404059F1C666}">
+										<Image FileName="-2076777356" Left="1425" Top="180" Right="1528" Bottom="285" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;MuiBox-root&apos;)]/header/div/div/div[2]/div[contains(@class, &apos;MuiBox-root&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{FFC99034-A468-409D-87E6-B0958C27F1E1}">
+										<Image FileName="1326408658" Left="6" Top="105" Right="1914" Bottom="1002" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;wissem.mahmoudi@alexatranslations.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSettings2" Key="{B499E294-C04E-4577-AF1F-6E12E5CEC07C}">
+										<Image FileName="311145384" Left="1341" Top="421" Right="1818" Bottom="493" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;settings&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;menu-settings&apos;]/li[@role=&apos;menuitem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;menu-settings&apos;]/li[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;settings&apos;)]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;menu-settings&apos;]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAccountSettings" Key="{BF3296A6-C599-4E93-9FEE-15B497AD86B4}">
+										<Image FileName="311145384" Left="1419" Top="439" Right="1713" Bottom="475" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Account Settings&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;tooltip&apos;]//ul//a[@id=&apos;menu-settings&apos;]/li/div[2]/span[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;settings&apos;)]//div[2]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;tooltip&apos;]//ul//a[@id=&apos;menu-settings&apos;]/li/div[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeKeyboardArrowDown" Key="{C7343761-3B4F-402C-BC9A-9EF5718A1149}">
+										<Image FileName="137206836" Left="490" Top="218" Right="520" Bottom="248" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[2]//p/span[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]//p/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeProjects" Key="{D9DFE688-44F8-4B8E-896F-4FF4395A8892}">
+										<Image FileName="1736067062" Left="394" Top="215" Right="520" Bottom="251" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[text()=&apos;Projects&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div/div[2]//p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div/div[2]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{F8396584-02E5-420B-8163-3ABC08F1A9D1}">
+										<Image FileName="790475785" Left="6" Top="105" Right="1854" Bottom="1002" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;Drop Files Here or Click to Browse&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTranslate" Key="{6D9A3AF2-83B3-49D8-809F-1D9FC04E1FA1}">
+										<Image FileName="1834985880" Left="208" Top="215" Right="346" Bottom="251" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[text()=&apos;Translate&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div/div//p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div/div//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeText" Key="{78199075-1FA2-4424-A7D1-8DDF1B800120}">
+										<Image FileName="301610119" Left="115" Top="288" Right="439" Bottom="528" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;menu&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//ul[contains(@class, &apos;MuiList-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDocument" Key="{3A5DDDEB-2069-49FF-BA98-B7BAD2D184CC}">
+										<Image FileName="301610119" Left="115" Top="372" Right="439" Bottom="444" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Document&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[2]/li[@role=&apos;menuitem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[2]/li[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;document&apos;)]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[2]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelFileUpload" Key="{72F15D86-3E08-4ED1-8BB8-446794C85B8F}">
+										<Image FileName="-673171582" Left="78" Top="393" Right="1773" Bottom="578" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;pendo-dropzone&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navBreadcrumb" Key="{1B4FA229-9A7E-4838-88D1-2D5C1700AA7F}">
+										<Image FileName="-1455624812" Left="89" Top="332" Right="1784" Bottom="368" />
+										<TypeInfo Item0="{93CCCC87-F802-4779-A4E1-F2564CE7DEE9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Translate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@aria-label=&apos;breadcrumb&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelBack" Key="{16E4B437-00A3-492F-9CA8-8F50DBC91BE3}">
+										<Image FileName="475814282" Left="1576" Top="926" Right="1781" Bottom="989" />
+										<TypeInfo Item0="{93CCCC87-F802-4779-A4E1-F2564CE7DEE9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Back&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;MuiStack-root&apos;)]/div[2]/div[contains(@class, &apos;MuiStack-root&apos;)]/div[2]//div[contains(@class, &apos;MuiStack-root&apos;)]/div[contains(@class, &apos;MuiStack-root&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelFileUpload2" Key="{533BBBAB-3A83-48CA-A259-10ADD7FF1A4D}">
+										<Image FileName="1293202934" Left="609" Top="295" Right="1300" Bottom="389" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;css-1eumy8e&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNext" Key="{63C23503-AA21-42F8-8D4D-C079F7DA71AA}">
+										<Image FileName="2072998966" Left="1797" Top="971" Right="1861" Bottom="1013" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//button[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEnglish" Key="{7B6B81CE-F7C5-49EA-B825-BC087D73DD0F}">
+										<Image FileName="1031813314" Left="1515" Top="536" Right="1559" Bottom="560" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;English&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[@aria-label=&apos;English&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//tbody/tr/td[2]//p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//tbody/tr/td[2]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFrench" Key="{4C4B6F5E-79A9-4048-9F17-8C0906A1AB3D}">
+										<Image FileName="-944139646" Left="1675" Top="536" Right="1719" Bottom="560" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;French&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[@aria-label=&apos;French&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//tbody/tr/td[4]//p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//tbody/tr/td[4]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCompleted" Key="{67A32A6E-D8AC-413F-BA1A-C21E03CBC78E}">
+										<Image FileName="596206106" Left="1023" Top="606" Right="1091" Bottom="626" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Completed&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tbody/tr/td[5]//p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tbody/tr/td[5]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTxtTmTbSampleEnTxt" Key="{14AB39B0-869A-4478-B825-F1A6E19FD644}">
+										<Image FileName="-1487210585" Left="341" Top="606" Right="503" Bottom="626" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;txt_TM_TB_sample_EN.txt&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td//p[@aria-label=&apos;txt_TM_TB_sample_EN.txt&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tbody/tr/td[3]//p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tbody/tr/td[3]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCsvDocxPdfPotxPptxTxt" Key="{558EDDC1-CA19-4F25-938E-A63C2D70DF94}">
+										<Image FileName="-1502050698" Left="528" Top="454" Right="1255" Bottom="562" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Maximum file size:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;MuiList-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCsvDocxPdfPotxPptxTxt2" Key="{A0F5622A-2601-4B93-A7BC-2835AFDD4520}">
+										<Image FileName="-1502050698" Left="528" Top="466" Right="1255" Bottom="508" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCsvDocxPdfPotxPptxTxt3" Key="{1B3F8C9D-B32B-4ABE-9AE7-A87EBCA562F1}">
+										<Image FileName="-1502050698" Left="534" Top="478" Right="1231" Bottom="500" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li/span[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDropFilesHereOrClickTo" Key="{DFD73BDD-EC35-47CF-923A-2FAD8A09F2F1}">
+										<Image FileName="-1531038811" Left="492" Top="421" Right="1255" Bottom="454" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[.=&apos;Drop Files Here or Click to Browse&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h6[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonMoreVert" Key="{00C99589-1BA5-431E-96B7-A4EEA6312907}">
+										<Image FileName="-190344134" Left="1811" Top="596" Right="1851" Bottom="636" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;more_vert&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td//button[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePreview" Key="{0F90803B-1969-4809-99D5-2E204DB2C85A}">
+										<Image FileName="34507017" Left="1675" Top="636" Right="1851" Bottom="951" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Preview&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;menu&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;MuiMenu-list&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDownloadTxt" Key="{9DE784A9-501F-4961-B2B7-3E057D9AAE56}">
+										<Image FileName="34507017" Left="1675" Top="763" Right="1851" Bottom="799" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Download .txt&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDownloadInProgress" Key="{1B50EA29-B7F0-4AAB-9A65-93EB5D496BC8}">
+										<Image FileName="-967270372" Left="1609" Top="164" Right="1897" Bottom="212" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/div[@aria-describedby=&apos;notistack-snackbar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div[@role=&apos;alert&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div[contains(@class, &apos;go1888806478&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelWm2" Key="{77B33312-1AB9-40E2-964A-42920D87D384}">
+										<Image FileName="1122742489" Left="1771" Top="144" Right="1869" Bottom="194" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header/div[contains(@class, &apos;MuiStack-root&apos;)]//div[contains(@class, &apos;MuiStack-root&apos;)]//div[contains(@class, &apos;MuiStack-root&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDownloadCompleted" Key="{85BA3750-2394-4C2C-A42C-372C64572999}">
+										<Image FileName="1022566592" Left="1609" Top="104" Right="1897" Bottom="152" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@aria-describedby=&apos;notistack-snackbar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[@role=&apos;alert&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;go1888806478&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFr" Key="{7B478F9E-B10A-4825-BD51-E3B4609CAB16}">
+										<Image FileName="-1139396194" Left="105" Top="583" Right="121" Bottom="603" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;FR&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tbody/tr/td//p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tbody/tr/td//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEn" Key="{7E5265DB-4761-44F5-8727-25F76DCAEEA0}">
+										<Image FileName="-1139396194" Left="153" Top="583" Right="171" Bottom="603" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/p[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEnglish2" Key="{65DD6081-F54C-42CB-A2DE-F8EBDC0D13DE}">
+										<Image FileName="-1386904972" Left="1499" Top="568" Right="1679" Bottom="1008" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;English&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;menu&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;MuiMenu-list&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFrench2" Key="{D15E9D80-5065-49C2-9D9F-54CAFAB1C6AE}">
+										<Image FileName="-1386904972" Left="1499" Top="604" Right="1679" Bottom="640" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;French&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@value=&apos;fra&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEnglish3" Key="{E86FD769-06F2-4362-9892-EDD88D50E1E3}">
+										<Image FileName="258603827" Left="1659" Top="568" Right="1839" Bottom="604" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;English&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@value=&apos;eng&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{0FFE04AA-F560-4E68-ACC0-5D5061CA2F15}">
+										<Image FileName="211684929" Left="-3" Top="84" Right="1917" Bottom="569" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;MuiBackdrop-root&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeVideoAudio" Key="{281413D3-016E-40A2-9942-0564AECE8DFF}">
+										<Image FileName="1527459879" Left="402" Top="295" Right="618" Bottom="343" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Video &amp; Audio&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[3]/li[@role=&apos;menuitem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[3]/li[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;media&apos;)]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[3]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeText2" Key="{485FF7E3-B3CE-4C10-8C5F-9E9AA61B5A62}">
+										<Image FileName="-731760450" Left="402" Top="199" Right="618" Bottom="247" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/li[@role=&apos;menuitem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/li[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;text&apos;)]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeArrowDropDown" Key="{41A098B3-9071-4662-8E97-60B0A1DDD637}">
+										<Image FileName="-2138321671" Left="1383" Top="733" Right="1419" Bottom="769" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[2]/div/div/div[2]//span[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]/div/div/div[2]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonIUnderstand" Key="{4FC4F3C2-73F6-4D09-83D1-4D9D16DAEB70}">
+										<Image FileName="1960050849" Left="1117" Top="769" Right="1233" Bottom="811" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;I understand&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div[3]/div/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div[3]/div/div/button[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div[3]/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTermBases" Key="{AA93EDFD-E168-48A1-A24A-5F43D03490C4}">
+										<Image FileName="810395681" Left="844" Top="94" Right="928" Bottom="118" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Term Bases&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div/a[2]//p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;term-bases&apos;)]//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div/a[2]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow2" Key="{1D2B6881-A341-4895-AF8B-E437D24F907B}">
+								<Image FileName="-1170240619" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageContactUsHowCanWeHelpYou" Key="{993A286A-258C-4EE0-9C1F-C42C45D9BAB8}">
+								<Image FileName="2050179281" Left="6" Top="105" Right="1854" Bottom="1002" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://alexatranslations.com/contact-us/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContactUs" Key="{94B96A29-1F58-4A54-B207-86F55B036E90}">
+										<Image FileName="2050179281" Left="6" Top="287" Right="1831" Bottom="1230" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Contact Us&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContactUs" Key="{0DEB75DE-8105-416E-BDC4-6B65E142B1CF}">
+										<Image FileName="2050179281" Left="189" Top="467" Right="773" Bottom="601" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Contact Us&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;ct-headline&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelContactUs" Key="{C7A782B5-8CE1-4E47-8F41-AD7DA86ED2C2}">
+										<Image FileName="251001800" Left="6" Top="287" Right="1831" Bottom="1230" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section/div[contains(@class, &apos;ct-section-inner-wrap&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageContactezNousCommentPouvonsN" Key="{9510C8D9-E866-424D-B5A2-15BB15EB747F}">
+								<Image FileName="2054386319" Left="6" Top="105" Right="1854" Bottom="1002" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://alexatranslations.com/fr/nos-coordonnees/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionNosCoordonnEs" Key="{F0C8A36F-9C1A-4102-A2CF-4AB819F919DE}">
+										<Image FileName="2054386319" Left="6" Top="287" Right="1831" Bottom="1393" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Nos coordonnées&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNosCoordonnEs" Key="{287959BF-4563-4C77-9D78-D60E12D9D78D}">
+										<Image FileName="2054386319" Left="6" Top="287" Right="1831" Bottom="1393" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section/div[contains(@class, &apos;ct-section-inner-wrap&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageContactUsHowCanWeHelpYou2" Key="{98D76EB4-08AE-4567-A0D0-0EDCDAC33056}">
+								<Image FileName="1281312315" Left="6" Top="105" Right="1854" Bottom="1002" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://alexatranslations.com/es/contactanos/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContCtanos" Key="{42AC70DA-EF83-48C4-AAB1-51B3B4FE6348}">
+										<Image FileName="1281312315" Left="6" Top="287" Right="1831" Bottom="1221" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Contáctanos&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContCtanos" Key="{D2A8E775-53B5-4C4D-9B86-C5786579D480}">
+										<Image FileName="1281312315" Left="189" Top="467" Right="773" Bottom="601" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Contáctanos&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;ct-headline&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAccountSettingsAlexaTranslat" Key="{CA2D43FF-C4DF-4641-B382-FB86D3E83A07}">
+								<Image FileName="1264760349" Left="6" Top="105" Right="1914" Bottom="1002" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://beta-ai.alexatranslations.com/en/account/settings" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeWissem" Key="{AE650225-66C7-4725-8F51-E71C8FCDAA11}">
+										<Image FileName="1264760349" Left="468" Top="702" Right="1443" Bottom="738" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[text()=&apos;Wissem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div//p[contains(@class, &apos;css-dfrn7b&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;simple-tabpanel-0&apos;]//div/div[2]/div//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerTranslate" Key="{3D71907E-9F9B-4D1C-84F2-2F0162D8D44A}">
+										<Image FileName="1081504857" Left="6" Top="180" Right="1854" Bottom="285" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Translate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;MuiStack-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelWm" Key="{84F40861-2AC1-43DC-BAAC-0B7E1285EF7B}">
+										<Image FileName="1081504857" Left="1649" Top="203" Right="1709" Bottom="263" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;WM&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;MuiAvatar-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgOpen" Key="{8F2B9CE8-A23C-48A0-8CEA-3896DDC9F495}">
+								<Image FileName="1588050992" Left="-11" Top="-11" Right="1909" Bottom="1021" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Open" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cbxFileName" Key="{55992F82-AB19-4D93-A183-0908A2B7EE47}">
+										<Image FileName="-718181925" Left="186" Top="946" Right="1684" Bottom="970" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBoxEx32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ComboBox" Key="{04C5CD88-A023-4DE0-9521-3AF6A356C4A3}">
+												<Image FileName="-718181925" Left="186" Top="946" Right="1684" Bottom="970" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="ComboBox" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Edit" Key="{F0AFC854-9D03-4E98-B7AE-F8E4BCF37359}">
+														<Image FileName="-718181925" Left="190" Top="951" Right="1664" Bottom="966" />
+														<TypeInfo Item0="{D98EE8D7-AABB-4CEE-83AF-41D67B80D21B}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Edit" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="btnOpen" Key="{C6FA9422-E23A-4422-BB83-29359782B2A1}">
+										<Image FileName="1792029335" Left="1696" Top="975" Right="1784" Bottom="1001" />
+										<TypeInfo Item0="{34F14F85-4AE5-4CE5-9F3B-FADB6EFB50F9}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Open" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgSaveAs" Key="{A9C72C5A-121F-4DE1-9600-49834290C416}">
+								<Image FileName="-1466098718" Left="-11" Top="-11" Right="1909" Bottom="1021" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Save As" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DUIViewWndClassName" Key="{A85347E0-26EA-4E4E-86A8-938F5F76DB5B}">
+										<Image FileName="-1466098718" Left="-3" Top="75" Right="1901" Bottom="947" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="DUIViewWndClassName" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Explorer_Pane" Key="{0172F641-8E12-4F05-8476-1B59F395AEE1}">
+												<Image FileName="-1466098718" Left="-3" Top="75" Right="1901" Bottom="947" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="DirectUI" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="HWNDView" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="pane" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Explorer_Pane" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Folder_Layout_Pane" Key="{264AB92F-40F9-46F9-8DA1-32A98F41BDA6}">
+														<Image FileName="-1466098718" Left="-3" Top="106" Right="1901" Bottom="947" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="DirectUI" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Element" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="pane" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Folder_Layout_Pane" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Details_Pane" Key="{94D74EE1-B905-46F4-8A1D-0C5902EB9758}">
+																<Image FileName="-1466098718" Left="-3" Top="847" Right="1901" Bottom="947" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="DirectUI" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="PreviewBackground" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="pane" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Details_Pane" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Save_Fields" Key="{2418609D-1A4C-4469-A536-4CA5BB2C5AE8}">
+																		<Image FileName="-1466098718" Left="7" Top="912" Right="1891" Bottom="942" />
+																		<TypeInfo Item0="{DB86FF77-1DEF-4FC9-9599-E0C19B927B1F}" />
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value Value="DirectUI" />
+																			</Property>
+																			<Property Name="ClassName">
+																				<Value Value="SaveDialogPreviewMetadataInner" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value Value="tree" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="Save_Fields" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="btnSave" Key="{C45232DA-9071-4A27-8E8C-246E11305C52}">
+										<Image FileName="1181686567" Left="1687" Top="961" Right="1775" Bottom="987" />
+										<TypeInfo Item0="{34F14F85-4AE5-4CE5-9F3B-FADB6EFB50F9}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Save" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageTermBasesAlexaTranslationsAI" Key="{D40891C9-8C56-4D2F-8481-43B9529F7970}">
+								<Image FileName="-505873229" Left="-3" Top="84" Right="1916" Bottom="789" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="*.alexatranslations.com/en/term-bases" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonCreate" Key="{E25DCCAB-6C50-440C-AC1F-3D37780F55AB}">
+										<Image FileName="-505873229" Left="1766" Top="409" Right="1835" Bottom="447" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Create&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/button[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTermBases" Key="{EFFE411B-3802-479D-B46F-48901E04279C}">
+										<Image FileName="1136092884" Left="49" Top="165" Right="1822" Bottom="189" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(@class, &apos;css-12z46o9&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="msedge" Key="{4873F5F0-7E04-4CC4-8164-680BFDDCE7FD}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="msedge" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgOpen" Key="{75D54998-6F14-4009-83D9-27B2C830351C}">
+								<Image FileName="-916821014" Left="0" Top="0" Right="960" Bottom="720" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Open" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cbxFileName" Key="{D22DD710-4A18-4C06-A06A-A8B09B067EB5}">
+										<Image FileName="225209811" Left="283" Top="610" Right="623" Bottom="644" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBoxEx32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ComboBox" Key="{810C6F57-2278-421A-8379-CA89134DF148}">
+												<Image FileName="225209811" Left="283" Top="610" Right="623" Bottom="644" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="ComboBox" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Edit" Key="{7656DBC8-7100-409D-9C50-E29F875B0856}">
+														<Image FileName="225209811" Left="287" Top="615" Right="594" Bottom="640" />
+														<TypeInfo Item0="{D98EE8D7-AABB-4CEE-83AF-41D67B80D21B}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Edit" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="btnOpen" Key="{19548615-F1FF-4418-9177-C86179BD6956}">
+										<Image FileName="-472181241" Left="641" Top="652" Right="773" Bottom="691" />
+										<TypeInfo Item0="{34F14F85-4AE5-4CE5-9F3B-FADB6EFB50F9}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Open" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnCancel" Key="{9E76C948-959B-40A5-95AD-3C3971FEA9A4}">
+										<Image FileName="-1198724431" Left="1796" Top="975" Right="1884" Bottom="1001" />
+										<TypeInfo Item0="{34F14F85-4AE5-4CE5-9F3B-FADB6EFB50F9}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Cancel" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="Open" Key="{6EA59B09-3A43-4CE6-B309-98DA2291F317}">
+										<Image FileName="1554816497" Left="8" Top="31" Right="358" Bottom="147" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="DirectUI" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="TaskDialog" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="pane" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Open" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MainInstructionIcon" Key="{1A4A33BA-86D4-42A3-8983-32FC3C4719E9}">
+												<Image FileName="1554816497" Left="18" Top="41" Right="50" Bottom="73" />
+												<TypeInfo Item0="{DB86FF77-1DEF-4FC9-9599-E0C19B927B1F}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="DirectUI" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="Element" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="image" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="MainInstructionIcon" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="CtrlNotifySink" Key="{E1F12B5A-996C-4F13-A5F9-44EC3BA5DD26}">
+												<Image FileName="-372710135" Left="280" Top="115" Right="348" Bottom="138" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="CtrlNotifySink" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="7" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btnOK" Key="{26ACEC43-5BBD-4DE8-879A-FC459A711E9D}">
+														<Image FileName="-372710135" Left="280" Top="115" Right="348" Bottom="138" />
+														<TypeInfo Item0="{34F14F85-4AE5-4CE5-9F3B-FADB6EFB50F9}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="OK" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDocumentTranslationAlexaTran" Key="{98350CA0-F178-4148-A47E-92B7CF5391E1}">
+								<Image FileName="1177012323" Left="17" Top="116" Right="1865" Bottom="1013" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="*.alexatranslations.com/en/translate/document" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelFileUpload" Key="{FEE19723-629D-4554-B2BE-FDA834D4A544}">
+										<Image FileName="960900960" Left="78" Top="393" Right="1773" Bottom="578" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;pendo-dropzone&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNext" Key="{6EC25797-EB44-4678-8DFC-25369D0E5BA7}">
+										<Image FileName="-760070823" Left="1674" Top="915" Right="1770" Bottom="978" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//button[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEnglish" Key="{23144D72-A625-4116-9399-43CD892C82F6}">
+										<Image FileName="1680942352" Left="1251" Top="783" Right="1317" Bottom="819" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;English&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[@aria-label=&apos;English&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//tbody/tr/td[2]//p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//tbody/tr/td[2]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFrench" Key="{51F76ECE-4F1E-4FDA-A81D-CE5EC0E2AEDD}">
+										<Image FileName="-298158158" Left="1491" Top="783" Right="1557" Bottom="819" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;French&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[@aria-label=&apos;French&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//tbody/tr/td[4]//p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//tbody/tr/td[4]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCompleted" Key="{73BCB194-FA1B-4660-8737-2B847AD154C0}">
+										<Image FileName="364781064" Left="1002" Top="887" Right="1104" Bottom="917" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Completed&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tbody/tr/td[5]//p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tbody/tr/td[5]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTxtTmTbSampleEnTxt" Key="{BE73A22B-EDE2-4EE6-91A5-7CA69DE3482B}">
+										<Image FileName="-1416119250" Left="341" Top="737" Right="585" Bottom="767" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;txt_TM_TB_sample_EN.txt&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[@aria-label=&apos;txt_TM_TB_sample_EN.txt&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tbody/tr/td[3]//p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tbody/tr/td[3]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonMoreVert" Key="{64EDA378-974B-4098-92EC-02BBF8CA19F5}">
+										<Image FileName="-1444875041" Left="1695" Top="594" Right="1755" Bottom="654" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;more_vert&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//tr/td//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//tr/td//button[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//tr/td//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePreview" Key="{A20AC2CD-9EE5-4634-9515-04F1713A240D}">
+										<Image FileName="1680509109" Left="1491" Top="506" Right="1755" Bottom="978" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Preview&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;menu&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;MuiMenu-list&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDownloadTxt" Key="{12B2EDA0-749B-4E09-9731-33E9F2342DCF}">
+										<Image FileName="118790968" Left="1491" Top="696" Right="1755" Bottom="750" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Download .txt&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDownloadCompleted" Key="{18748F80-922F-4BD5-B6A2-9F68F481C970}">
+										<Image FileName="27149607" Left="1392" Top="135" Right="1824" Bottom="207" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@aria-describedby=&apos;notistack-snackbar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[@role=&apos;alert&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;go1888806478&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonClose" Key="{93626E15-5557-442F-8D3E-96ED1FA3C382}">
+										<Image FileName="-1153130241" Left="1716" Top="315" Right="1770" Bottom="369" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;close&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@aria-label=&apos;Close&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div/div/div/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div/div/div/div/button[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDocumentTranslation" Key="{30EF3C52-5E03-47A2-8E8C-3C051F7217DF}">
+										<Image FileName="-1461503590" Left="1029" Top="369" Right="1770" Bottom="419" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Document translation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div/div/div/p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div/div/div/p" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{C33CEF78-C8BB-4198-88F8-175991648EA4}">
+								<Image FileName="1512801448" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageDocument" Key="{DB477DD3-81F3-48C7-B333-3FFFB1EC72E4}">
+								<Image FileName="2132392743" Left="6" Top="105" Right="1854" Bottom="1002" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="*.alexatranslations.com/en/translate/document" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonNext" Key="{7ACA6281-9BCB-42DC-9070-6852D3A1802A}">
+										<Image FileName="781239149" Left="1674" Top="915" Right="1770" Bottom="978" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;MuiButton-contained&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelBack" Key="{334596D8-C9E7-4050-BD1B-C5E5C6426452}">
+										<Image FileName="123981503" Left="1565" Top="915" Right="1770" Bottom="978" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Back&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;MuiStack-root&apos;)]/div[2]/div[contains(@class, &apos;MuiStack-root&apos;)]/div[2]//div[contains(@class, &apos;MuiStack-root&apos;)]/div[contains(@class, &apos;MuiStack-root&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonClose" Key="{56733E64-2EA8-4E98-8F04-307FCA8EFE54}">
+										<Image FileName="-675765285" Left="1716" Top="315" Right="1770" Bottom="369" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;close&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@aria-label=&apos;Close&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div/div/div/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div/div/div/div/button[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelFileUpload" Key="{C6FD0F78-0AC5-41F9-A1E0-9F239455AEF6}">
+										<Image FileName="112691189" Left="78" Top="393" Right="1773" Bottom="578" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;pendo-dropzone&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navBreadcrumb" Key="{6125F26B-A879-460B-AA50-9BC684E01F1D}">
+										<Image FileName="956008411" Left="78" Top="321" Right="1773" Bottom="357" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Translate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@aria-label=&apos;breadcrumb&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTranslate" Key="{75D30E00-B50F-4378-8F85-C2D37EE5A25B}">
+										<Image FileName="956008411" Left="78" Top="321" Right="1773" Bottom="357" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ol[contains(., &apos;Translate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[contains(@class, &apos;MuiBreadcrumbs-ol&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSource" Key="{6DA6E963-A04E-4741-BE56-94038322587B}">
+										<Image FileName="-819161879" Left="1227" Top="709" Right="1293" Bottom="741" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Source&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[@aria-label=&apos;Source&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//tr/th[2]//p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//tr/th[2]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeArrowDropDown" Key="{F99340CF-3F31-4268-BBFD-C884A71D5ABD}">
+										<Image FileName="1262660242" Left="1317" Top="783" Right="1353" Bottom="819" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//tr/td//span[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//tr/td//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEnglish" Key="{67978B9B-AE1B-4360-A565-751A3349E6E2}">
+										<Image FileName="1925113135" Left="1227" Top="318" Right="1496" Bottom="978" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;English&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;menu&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;MuiMenu-list&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFrench" Key="{FEA4AF79-44D3-4E82-B985-3423AB4563C5}">
+										<Image FileName="1925113135" Left="1227" Top="372" Right="1496" Bottom="426" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;French&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@value=&apos;fra&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEnglish2" Key="{F70CF9D4-219B-4A65-9F45-FCF26BA227D4}">
+										<Image FileName="129493139" Left="1467" Top="318" Right="1736" Bottom="372" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;English&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@value=&apos;eng&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSpanish" Key="{2CADFC9D-AEBD-48D6-BE7C-0BAEB0FF0506}">
+										<Image FileName="-283936115" Left="1227" Top="426" Right="1496" Bottom="480" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Spanish&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@value=&apos;spa&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeArrowDropDown2" Key="{F70DAD4D-7B4C-4C03-BB2A-FC925AE55D2B}">
+										<Image FileName="-796897918" Left="1675" Top="521" Right="1699" Bottom="545" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td[4]//span[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[4]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePortuguese" Key="{42D090DC-2DA0-470D-B464-3DFFF1F24343}">
+										<Image FileName="2115333154" Left="1615" Top="661" Right="1795" Bottom="697" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Portuguese&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@value=&apos;por&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelClose" Key="{5A32C6CB-EBA6-4C2A-929C-AE2CDD887819}">
+										<Image FileName="-2111244557" Left="657" Top="262" Right="1257" Bottom="835" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[contains(@class, &apos;MuiStack-root&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonIUnderstand" Key="{3A0113A9-F4F3-4D1B-8783-394838799BC8}">
+										<Image FileName="-406795517" Left="1117" Top="769" Right="1233" Bottom="811" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;I understand&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div[3]/div/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div[3]/div/div/button[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div[3]/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelClose2" Key="{14F73324-A04D-44BF-94D3-9A0448C93446}">
+										<Image FileName="1551151264" Left="1" Top="69" Right="1913" Bottom="1025" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;MuiDialog-container&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerTranslate" Key="{75496D36-D4BF-4217-9BE5-2BC493C03E1C}">
+										<Image FileName="1583779644" Left="1" Top="121" Right="1913" Bottom="191" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Translate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;MuiStack-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTermBases" Key="{1875A62B-A635-4691-A3F0-F611F91C252B}">
+										<Image FileName="1583779644" Left="844" Top="144" Right="928" Bottom="168" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Term Bases&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div/a[2]//p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;term-bases&apos;)]//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div/a[2]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAccountSettingsAlexaTranslat" Key="{60059658-A1CF-4110-A047-D29CB91429D6}">
+								<Image FileName="1942653123" Left="1" Top="69" Right="1913" Bottom="1025" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://beta-app.alexatranslations.com/en/account/settings" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeFullName" Key="{FF1E9311-A2DC-43F2-AA51-E39213DFCC09}">
+										<Image FileName="1942653123" Left="629" Top="447" Right="1279" Bottom="467" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Full name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/span[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;simple-tabpanel-0&apos;]//div[2]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWissem" Key="{A736F1E8-B649-491B-920F-3D4601AF187E}">
+										<Image FileName="1942653123" Left="629" Top="467" Right="1279" Bottom="491" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[text()=&apos;Wissem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div//p[contains(@class, &apos;css-dfrn7b&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;simple-tabpanel-0&apos;]//div/div[2]/div//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEdit" Key="{D4DD8557-9FAF-41AA-81FE-A273AF2D943D}">
+										<Image FileName="-1930436716" Left="1215" Top="393" Right="1279" Bottom="419" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Edit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;simple-tabpanel-0&apos;]//div//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;simple-tabpanel-0&apos;]//div//button[contains(@class, &apos;MuiButtonBase-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;simple-tabpanel-0&apos;]//div/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;simple-tabpanel-0&apos;]//div//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAudioVideoTranslationAlexaTr" Key="{99AE5DB4-090D-4D8E-A101-3EDFFBE8DC05}">
+								<Image FileName="491240219" Left="12" Top="82" Right="1924" Bottom="1036" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://app.alexatranslations.com/en/translate/media" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelTranslate" Key="{53E83C96-AE17-4391-9E18-24C3DCDE775B}">
+										<Image FileName="-1420403530" Left="25" Top="189" Right="1889" Bottom="1025" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;MuiBox-root&apos;)]/div[2]/div[contains(@class, &apos;MuiBox-root&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSelectAFileOrDragAndDrop" Key="{1D6A7257-B384-43D9-8C13-DF78188AC6F5}">
+										<Image FileName="-1420403530" Left="777" Top="280" Right="1062" Bottom="374" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;MuiStack-root&apos;)]//div[contains(@class, &apos;MuiStack-root&apos;)]/div/div[contains(@class, &apos;MuiStack-root&apos;)]/div[contains(@class, &apos;MuiStack-root&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEnglish" Key="{37F57FB0-0330-4BEB-A746-ADFACF56DF3B}">
+										<Image FileName="1214726923" Left="1539" Top="502" Right="1591" Bottom="526" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;English&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[@aria-label=&apos;English&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//tbody/tr/td[2]//p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//tbody/tr/td[2]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{3BB04F21-189C-41D1-ACE5-4AC9620B2E40}">
+										<Image FileName="1943060754" Left="1485" Top="442" Right="1648" Bottom="484" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[.=&apos;Source&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeArrowDropDown" Key="{D0EE6B99-3A6D-48B2-BF17-CE57DDE46DA8}">
+										<Image FileName="2000893753" Left="1591" Top="502" Right="1615" Bottom="526" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//tr/td//span[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[2]//tr/td//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCompleted" Key="{EEF74386-6279-447D-A202-51504C540EC8}">
+										<Image FileName="1962707172" Left="1045" Top="591" Right="1113" Bottom="611" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Completed&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tbody/tr/td[5]//p[contains(@class, &apos;MuiTypography-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tbody/tr/td[5]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageTextTranslationAlexaTranslat" Key="{53E9A813-F554-484E-8531-1164221F6740}">
+								<Image FileName="743057785" Left="1" Top="69" Right="1913" Bottom="1025" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://beta-app.alexatranslations.com/en/translate/text" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelTranslation" Key="{56FAA56C-3374-49FF-80A0-F06F102D1EC0}">
+										<Image FileName="743057785" Left="938" Top="238" Right="1850" Bottom="286" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;css-17t2j2v&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textarea" Key="{0605AF0D-4A87-48B0-B7FA-F8AD89398094}">
+										<Image FileName="743057785" Left="57" Top="262" Right="886" Bottom="285" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTranslation" Key="{0BC5DBA1-FA48-4A95-A8A6-AD6DA4B4D3DD}">
+										<Image FileName="743057785" Left="970" Top="264" Right="1050" Bottom="283" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Translation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTranslation2" Key="{B09240B5-FB36-437C-9BB3-071F0FC89878}">
+										<Image FileName="-876865555" Left="949" Top="249" Right="1861" Bottom="727" />
+										<TypeInfo Item0="{93CCCC87-F802-4779-A4E1-F2564CE7DEE9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Translation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;css-aze4rp&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDetectLanguage" Key="{0512A728-8E07-4C96-BECE-0448788AACB6}">
+										<Image FileName="1532174217" Left="25" Top="189" Right="174" Bottom="237" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Detect language&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMicNoneOutlined" Key="{1DA2B884-F652-4ACD-9532-29D3123EDA4C}">
+										<Image FileName="1532174217" Left="25" Top="238" Right="937" Bottom="716" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;MuiBox-root&apos;)]/div[2]/div[contains(@class, &apos;MuiBox-root&apos;)]//div[2]/div[contains(@class, &apos;MuiBox-root&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAudioVideoTranslationAlexaTr2" Key="{D570F157-7C36-45FE-B675-0FFE6E8E25C5}">
+								<Image FileName="-1909461631" Left="1" Top="71" Right="1913" Bottom="1025" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://app.alexatranslations.com/en/translate/media" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelSelectAFileOrDragAndDrop" Key="{DC272324-EEC9-4BF8-8604-B0A2DBD7714E}">
+										<Image FileName="-1909461631" Left="731" Top="232" Right="1107" Bottom="326" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;MuiStack-root&apos;)]//div[contains(@class, &apos;MuiStack-root&apos;)]/div/div[contains(@class, &apos;MuiStack-root&apos;)]/div[contains(@class, &apos;MuiStack-root&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageTextTranslationAlexaTranslat2" Key="{1A18D1FE-CC88-444F-96F3-4097FC2FEDA5}">
+								<Image FileName="1073411936" Left="1" Top="69" Right="1913" Bottom="1025" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="*.alexatranslations.com/en/translate/text" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonEnglish" Key="{9EA1F97B-7F3B-419E-B341-7366ACCD3E2F}">
+										<Image FileName="-1523046792" Left="938" Top="139" Right="1028" Bottom="187" />
+										<TypeInfo Item0="{DC800BDB-E56E-4BA2-8E11-6AD2F0B3D64B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//div[2]/div//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTranslation" Key="{9623F83A-8F54-4C33-AAF1-F591F6601954}">
+										<Image FileName="-2137515761" Left="938" Top="188" Right="1850" Bottom="236" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;css-17t2j2v&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTranslation2" Key="{7713659C-D82A-4F51-9CE6-FEFD5DC58985}">
+										<Image FileName="1646173153" Left="938" Top="188" Right="1850" Bottom="666" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Translation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;css-aze4rp&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageTermBasesAlexaTranslationsAI" Key="{0332BEAF-94E7-4867-A137-E16492F077C2}">
+								<Image FileName="-54984073" Left="12" Top="80" Right="1924" Bottom="1036" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="*.alexatranslations.com/en/term-bases" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeTermBases" Key="{32E8CC62-E122-48C7-98DC-6A990F55351A}">
+										<Image FileName="789002844" Left="49" Top="215" Right="1822" Bottom="239" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(@class, &apos;css-12z46o9&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageTermBasesAlexaTranslationsAI2" Key="{6B5181AB-B34B-4F86-89A4-C4AA7212EEAF}">
+								<Image FileName="-1074320911" Left="1" Top="71" Right="1913" Bottom="1025" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://app.alexatranslations.com/en/term-bases" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeTermBases" Key="{802067DB-9373-492D-86C9-2AC6F5667D63}">
+										<Image FileName="-1074320911" Left="49" Top="165" Right="1822" Bottom="189" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(@class, &apos;css-12z46o9&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSelectAFileOrDragAndDrop" Key="{35C7E225-F9DB-4479-9142-68F553262C07}">
+										<Image FileName="-452727673" Left="675" Top="230" Right="1125" Bottom="324" />
+										<TypeInfo Item0="{7506A7D8-66A8-434E-AF0F-D6235EFC0185}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;MuiStack-root&apos;)]//div[contains(@class, &apos;MuiStack-root&apos;)]//div[contains(@class, &apos;MuiStack-root&apos;)]/div/div[contains(@class, &apos;MuiStack-root&apos;)]/div[contains(@class, &apos;MuiStack-root&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{A57903AF-0526-42FA-A185-5955EEEF5139}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_SecondaryTrayWnd" Key="{241F3A2C-AA38-4CB7-9917-B58EA8EA5277}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_SecondaryTrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{704B6275-B494-486D-98A2-C3884484AA8C}">
+										<TypeInfo Item0="{F3B91ABE-2348-4F3A-8CCA-96567DF06309}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndShell_TrayWnd" Key="{69DF753C-215C-4EF8-A370-62A18495CBEB}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{8AA1FAF9-1692-4201-9C72-A0A5B9243714}">
+										<TypeInfo Item0="{F3B91ABE-2348-4F3A-8CCA-96567DF06309}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="brave" Key="{51CE5D30-E7EA-4061-BE89-A6FB6A21BC75}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="brave" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndChrome_WidgetWin_1" Key="{FF188523-A615-4EB6-9FC6-FD8FF018CCCD}">
+								<Image FileName="1765866298" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<TypeInfo Item0="{D712286F-BBFD-4E4A-BE84-F15F30C76B31}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{DD0873D8-685B-427B-876D-CBBCAD04688A}">
+			<Child Name="BrowserWindow" Owner="{F1541E60-AC2C-4306-924D-0CE2D4522CA6}" />
+			<Child Name="pageLoginAlexaTranslationsAI" Owner="{F15C554E-23D0-42F7-87AC-346D01C139A5}">
+				<Child Name="textboxEmail" Owner="{DEB29803-13FE-4C72-9D25-3B8F55D9F301}" />
+				<Child Name="textnode" Owner="{A2B2C254-9637-4A2B-BBD1-63B647EC44BF}" />
+				<Child Name="passwordboxPassword" Owner="{719487AC-F26A-4C43-8842-D8683BEEB78A}" />
+				<Child Name="panelLogin" Owner="{20CFB032-01F3-4C59-8F75-4B59DC267169}" />
+				<Child Name="buttonLogin" Owner="{57D05D83-4425-4360-87D6-256D6BCEECCD}" />
+				<Child Name="panelNotistackSnackbar" Owner="{00FCA560-BA85-41CA-92AA-0D8730406418}" />
+				<Child Name="panelLogin2" Owner="{42C12F29-8C71-4E23-B7B6-0C0C466FD3EF}" />
+				<Child Name="textboxEmail2" Owner="{BA951788-31C0-4317-9469-25D9DC6D9EFD}" />
+				<Child Name="passwordboxPassword2" Owner="{961526DA-432A-493A-AD1F-BC3736E45BD8}" />
+				<Child Name="labelRememberMe" Owner="{6FCC961C-CD99-4408-B1E5-CD640A4B3006}">
+					<Child Name="checkbox" Owner="{FD16FF7A-C603-4441-A182-8E3B75B6C422}" />
+				</Child>
+				<Child Name="panelNeedHelp" Owner="{10F2A5AE-1487-4B0C-976A-FB942DF51072}" />
+				<Child Name="textboxEmail3" Owner="{815C3852-D17A-4F30-BA38-DBBCBE58806E}" />
+				<Child Name="passwordboxPassword3" Owner="{C8466932-A69A-470B-B901-F0C57273ECB3}" />
+				<Child Name="panelForgotPassword" Owner="{EB557229-DD89-4E80-9182-91D1740D390D}" />
+				<Child Name="linkGetInTouch" Owner="{12D1CEE3-5909-4F5B-BBFA-98F8C4F689E3}" />
+				<Child Name="buttonContinueWithSso" Owner="{88207459-C160-4745-9410-DCBB91A581EC}" />
+				<Child Name="buttonLogIn2" Owner="{E0802649-9EC7-4C68-8A5E-EE79DA03D3D9}" />
+				<Child Name="textnodeUsernameOrEmailRequired" Owner="{90333E4D-AF52-4668-B14F-12A4C7C2BC52}" />
+				<Child Name="textnodePasswordRequired" Owner="{4C0F4629-6A02-47DD-A24F-E36690C89E14}" />
+				<Child Name="textnodeUsernameOrEmailRequired2" Owner="{29C5C90D-E842-4E4E-83C9-F0BC3A298302}" />
+				<Child Name="textnodePasswordRequired2" Owner="{C2E46AF9-93F2-4755-8BC4-0CA4ADC8433E}" />
+				<Child Name="panelLogin3" Owner="{E6A327FA-EBE2-46D6-B23B-96BECF3F3508}" />
+				<Child Name="panelYouReNowLoggedOutSeeYou" Owner="{29AB2661-1763-4EFB-999C-49640883FCD8}" />
+			</Child>
+			<Child Name="pageLoginAlexaTranslationsAI2" Owner="{816A758D-6A73-4E7F-B830-6A75C15E1C46}">
+				<Child Name="panel" Owner="{C1DB9EE4-B957-46FF-9B3A-953E2970B8AD}" />
+				<Child Name="buttonDetectLanguage" Owner="{52DFF1CE-BE2A-4730-BF26-CB6F94BEB41E}" />
+				<Child Name="buttonEnglish" Owner="{E4594A71-A84E-47F4-B565-AE97DCC38CE1}" />
+				<Child Name="panelMicNoneOutlined" Owner="{2F01A1D8-75F7-4CA1-B7E3-D1EC0B79FE1B}" />
+				<Child Name="textarea" Owner="{B1C1EBCA-79BC-4724-A60E-33160B98B4CD}" />
+				<Child Name="buttonFrench" Owner="{91637CDA-34A3-470F-9625-985C9DE04E18}" />
+				<Child Name="buttonSpanish" Owner="{2B95E611-7032-4EA2-8EA0-16BBED1CA070}" />
+			</Child>
+			<Child Name="pageDocumentTranslationAlexaTran" Owner="{0AE5B2DF-1EDF-4BFB-8F85-5BE5AA56020C}">
+				<Child Name="panel" Owner="{18E63535-0D1F-4BA8-B00B-A192A12704FD}" />
+				<Child Name="headerTranslate" Owner="{8C3B5DF6-E2B4-4079-A0FD-4CC97CFE6238}">
+					<Child Name="panelWm" Owner="{991FFE23-1DB8-42BF-95D0-35ED666D4D72}" />
+					<Child Name="textnodeWissem" Owner="{425E6185-6F1D-4C44-AAEA-04280078D6B1}">
+						<Child Name="textnodeLogout" Owner="{5CD85801-5BA2-47A0-9969-A3587F663CB8}">
+							<Child Name="panelLogout" Owner="{16DF0A01-6984-46A7-B224-2FC02FF0E30F}" />
+						</Child>
+						<Child Name="textnodeSettings2" Owner="{B499E294-C04E-4577-AF1F-6E12E5CEC07C}">
+							<Child Name="textnodeAccountSettings" Owner="{BF3296A6-C599-4E93-9FEE-15B497AD86B4}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeSettings" Owner="{2B4211BB-57D2-42CE-99A7-B69C59B38370}" />
+					<Child Name="panelLanguage" Owner="{64FFE0D6-255C-4310-9F1B-404059F1C666}" />
+					<Child Name="textnodeKeyboardArrowDown" Owner="{C7343761-3B4F-402C-BC9A-9EF5718A1149}" />
+					<Child Name="textnodeProjects" Owner="{D9DFE688-44F8-4B8E-896F-4FF4395A8892}" />
+					<Child Name="textnodeTranslate" Owner="{6D9A3AF2-83B3-49D8-809F-1D9FC04E1FA1}" />
+					<Child Name="textnodeText" Owner="{78199075-1FA2-4424-A7D1-8DDF1B800120}">
+						<Child Name="textnodeDocument" Owner="{3A5DDDEB-2069-49FF-BA98-B7BAD2D184CC}" />
+						<Child Name="textnodeVideoAudio" Owner="{281413D3-016E-40A2-9942-0564AECE8DFF}" />
+						<Child Name="textnodeText2" Owner="{485FF7E3-B3CE-4C10-8C5F-9E9AA61B5A62}" />
+					</Child>
+					<Child Name="panelWm2" Owner="{77B33312-1AB9-40E2-964A-42920D87D384}" />
+					<Child Name="textnodeTermBases" Owner="{AA93EDFD-E168-48A1-A24A-5F43D03490C4}" />
+				</Child>
+				<Child Name="textnode" Owner="{FFC99034-A468-409D-87E6-B0958C27F1E1}" />
+				<Child Name="textnode2" Owner="{F8396584-02E5-420B-8163-3ABC08F1A9D1}" />
+				<Child Name="panelFileUpload" Owner="{72F15D86-3E08-4ED1-8BB8-446794C85B8F}" />
+				<Child Name="navBreadcrumb" Owner="{1B4FA229-9A7E-4838-88D1-2D5C1700AA7F}" />
+				<Child Name="panelBack" Owner="{16E4B437-00A3-492F-9CA8-8F50DBC91BE3}" />
+				<Child Name="panelFileUpload2" Owner="{533BBBAB-3A83-48CA-A259-10ADD7FF1A4D}" />
+				<Child Name="buttonNext" Owner="{63C23503-AA21-42F8-8D4D-C079F7DA71AA}" />
+				<Child Name="textnodeEnglish" Owner="{7B6B81CE-F7C5-49EA-B825-BC087D73DD0F}" />
+				<Child Name="textnodeFrench" Owner="{4C4B6F5E-79A9-4048-9F17-8C0906A1AB3D}" />
+				<Child Name="textnodeCompleted" Owner="{67A32A6E-D8AC-413F-BA1A-C21E03CBC78E}" />
+				<Child Name="textnodeTxtTmTbSampleEnTxt" Owner="{14AB39B0-869A-4478-B825-F1A6E19FD644}" />
+				<Child Name="textnodeCsvDocxPdfPotxPptxTxt" Owner="{558EDDC1-CA19-4F25-938E-A63C2D70DF94}">
+					<Child Name="textnodeCsvDocxPdfPotxPptxTxt2" Owner="{A0F5622A-2601-4B93-A7BC-2835AFDD4520}">
+						<Child Name="textnodeCsvDocxPdfPotxPptxTxt3" Owner="{1B3F8C9D-B32B-4ABE-9AE7-A87EBCA562F1}" />
+					</Child>
+				</Child>
+				<Child Name="textnodeDropFilesHereOrClickTo" Owner="{DFD73BDD-EC35-47CF-923A-2FAD8A09F2F1}" />
+				<Child Name="buttonMoreVert" Owner="{00C99589-1BA5-431E-96B7-A4EEA6312907}" />
+				<Child Name="textnodePreview" Owner="{0F90803B-1969-4809-99D5-2E204DB2C85A}">
+					<Child Name="textnodeDownloadTxt" Owner="{9DE784A9-501F-4961-B2B7-3E057D9AAE56}" />
+				</Child>
+				<Child Name="panelDownloadInProgress" Owner="{1B50EA29-B7F0-4AAB-9A65-93EB5D496BC8}" />
+				<Child Name="panelDownloadCompleted" Owner="{85BA3750-2394-4C2C-A42C-372C64572999}" />
+				<Child Name="textnodeFr" Owner="{7B478F9E-B10A-4825-BD51-E3B4609CAB16}" />
+				<Child Name="textnodeEn" Owner="{7E5265DB-4761-44F5-8727-25F76DCAEEA0}" />
+				<Child Name="textnodeEnglish2" Owner="{65DD6081-F54C-42CB-A2DE-F8EBDC0D13DE}">
+					<Child Name="textnodeFrench2" Owner="{D15E9D80-5065-49C2-9D9F-54CAFAB1C6AE}" />
+					<Child Name="textnodeEnglish3" Owner="{E86FD769-06F2-4362-9892-EDD88D50E1E3}" />
+				</Child>
+				<Child Name="panel2" Owner="{0FFE04AA-F560-4E68-ACC0-5D5061CA2F15}" />
+				<Child Name="textnodeArrowDropDown" Owner="{41A098B3-9071-4662-8E97-60B0A1DDD637}" />
+				<Child Name="buttonIUnderstand" Owner="{4FC4F3C2-73F6-4D09-83D1-4D9D16DAEB70}" />
+			</Child>
+			<Child Name="BrowserWindow2" Owner="{1D2B6881-A341-4895-AF8B-E437D24F907B}" />
+			<Child Name="pageContactUsHowCanWeHelpYou" Owner="{993A286A-258C-4EE0-9C1F-C42C45D9BAB8}">
+				<Child Name="sectionContactUs" Owner="{94B96A29-1F58-4A54-B207-86F55B036E90}">
+					<Child Name="textnodeContactUs" Owner="{0DEB75DE-8105-416E-BDC4-6B65E142B1CF}" />
+					<Child Name="panelContactUs" Owner="{C7A782B5-8CE1-4E47-8F41-AD7DA86ED2C2}" />
+				</Child>
+			</Child>
+			<Child Name="pageContactezNousCommentPouvonsN" Owner="{9510C8D9-E866-424D-B5A2-15BB15EB747F}">
+				<Child Name="sectionNosCoordonnEs" Owner="{F0C8A36F-9C1A-4102-A2CF-4AB819F919DE}">
+					<Child Name="panelNosCoordonnEs" Owner="{287959BF-4563-4C77-9D78-D60E12D9D78D}" />
+				</Child>
+			</Child>
+			<Child Name="pageContactUsHowCanWeHelpYou2" Owner="{98D76EB4-08AE-4567-A0D0-0EDCDAC33056}">
+				<Child Name="sectionContCtanos" Owner="{42AC70DA-EF83-48C4-AAB1-51B3B4FE6348}">
+					<Child Name="textnodeContCtanos" Owner="{D2A8E775-53B5-4C4D-9B86-C5786579D480}" />
+				</Child>
+			</Child>
+			<Child Name="pageAccountSettingsAlexaTranslat" Owner="{CA2D43FF-C4DF-4641-B382-FB86D3E83A07}">
+				<Child Name="textnodeWissem" Owner="{AE650225-66C7-4725-8F51-E71C8FCDAA11}" />
+				<Child Name="headerTranslate" Owner="{3D71907E-9F9B-4D1C-84F2-2F0162D8D44A}">
+					<Child Name="panelWm" Owner="{84F40861-2AC1-43DC-BAAC-0B7E1285EF7B}" />
+				</Child>
+			</Child>
+			<Child Name="dlgOpen" Owner="{8F2B9CE8-A23C-48A0-8CEA-3896DDC9F495}">
+				<Child Name="cbxFileName" Owner="{55992F82-AB19-4D93-A183-0908A2B7EE47}">
+					<Child Name="ComboBox" Owner="{04C5CD88-A023-4DE0-9521-3AF6A356C4A3}">
+						<Child Name="Edit" Owner="{F0AFC854-9D03-4E98-B7AE-F8E4BCF37359}" />
+					</Child>
+				</Child>
+				<Child Name="btnOpen" Owner="{C6FA9422-E23A-4422-BB83-29359782B2A1}" />
+			</Child>
+			<Child Name="dlgSaveAs" Owner="{A9C72C5A-121F-4DE1-9600-49834290C416}">
+				<Child Name="DUIViewWndClassName" Owner="{A85347E0-26EA-4E4E-86A8-938F5F76DB5B}">
+					<Child Name="Explorer_Pane" Owner="{0172F641-8E12-4F05-8476-1B59F395AEE1}">
+						<Child Name="Folder_Layout_Pane" Owner="{264AB92F-40F9-46F9-8DA1-32A98F41BDA6}">
+							<Child Name="Details_Pane" Owner="{94D74EE1-B905-46F4-8A1D-0C5902EB9758}">
+								<Child Name="Save_Fields" Owner="{2418609D-1A4C-4469-A536-4CA5BB2C5AE8}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="btnSave" Owner="{C45232DA-9071-4A27-8E8C-246E11305C52}" />
+			</Child>
+			<Child Name="pageTermBasesAlexaTranslationsAI" Owner="{D40891C9-8C56-4D2F-8481-43B9529F7970}">
+				<Child Name="buttonCreate" Owner="{E25DCCAB-6C50-440C-AC1F-3D37780F55AB}" />
+				<Child Name="textnodeTermBases" Owner="{EFFE411B-3802-479D-B46F-48901E04279C}" />
+			</Child>
+		</Child>
+		<Child Name="msedge" Owner="{4873F5F0-7E04-4CC4-8164-680BFDDCE7FD}">
+			<Child Name="dlgOpen" Owner="{75D54998-6F14-4009-83D9-27B2C830351C}">
+				<Child Name="cbxFileName" Owner="{D22DD710-4A18-4C06-A06A-A8B09B067EB5}">
+					<Child Name="ComboBox" Owner="{810C6F57-2278-421A-8379-CA89134DF148}">
+						<Child Name="Edit" Owner="{7656DBC8-7100-409D-9C50-E29F875B0856}" />
+					</Child>
+				</Child>
+				<Child Name="btnOpen" Owner="{19548615-F1FF-4418-9177-C86179BD6956}" />
+				<Child Name="btnCancel" Owner="{9E76C948-959B-40A5-95AD-3C3971FEA9A4}" />
+				<Child Name="Open" Owner="{6EA59B09-3A43-4CE6-B309-98DA2291F317}">
+					<Child Name="MainInstructionIcon" Owner="{1A4A33BA-86D4-42A3-8983-32FC3C4719E9}" />
+					<Child Name="CtrlNotifySink" Owner="{E1F12B5A-996C-4F13-A5F9-44EC3BA5DD26}">
+						<Child Name="btnOK" Owner="{26ACEC43-5BBD-4DE8-879A-FC459A711E9D}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageDocumentTranslationAlexaTran" Owner="{98350CA0-F178-4148-A47E-92B7CF5391E1}">
+				<Child Name="panelFileUpload" Owner="{FEE19723-629D-4554-B2BE-FDA834D4A544}" />
+				<Child Name="buttonNext" Owner="{6EC25797-EB44-4678-8DFC-25369D0E5BA7}" />
+				<Child Name="textnodeEnglish" Owner="{23144D72-A625-4116-9399-43CD892C82F6}" />
+				<Child Name="textnodeFrench" Owner="{51F76ECE-4F1E-4FDA-A81D-CE5EC0E2AEDD}" />
+				<Child Name="textnodeCompleted" Owner="{73BCB194-FA1B-4660-8737-2B847AD154C0}" />
+				<Child Name="textnodeTxtTmTbSampleEnTxt" Owner="{BE73A22B-EDE2-4EE6-91A5-7CA69DE3482B}" />
+				<Child Name="buttonMoreVert" Owner="{64EDA378-974B-4098-92EC-02BBF8CA19F5}" />
+				<Child Name="textnodePreview" Owner="{A20AC2CD-9EE5-4634-9515-04F1713A240D}">
+					<Child Name="textnodeDownloadTxt" Owner="{12B2EDA0-749B-4E09-9731-33E9F2342DCF}" />
+				</Child>
+				<Child Name="panelDownloadCompleted" Owner="{18748F80-922F-4BD5-B6A2-9F68F481C970}" />
+				<Child Name="buttonClose" Owner="{93626E15-5557-442F-8D3E-96ED1FA3C382}" />
+				<Child Name="textnodeDocumentTranslation" Owner="{30EF3C52-5E03-47A2-8E8C-3C051F7217DF}" />
+			</Child>
+			<Child Name="BrowserWindow" Owner="{C33CEF78-C8BB-4198-88F8-175991648EA4}" />
+			<Child Name="pageDocument" Owner="{DB477DD3-81F3-48C7-B333-3FFFB1EC72E4}">
+				<Child Name="buttonNext" Owner="{7ACA6281-9BCB-42DC-9070-6852D3A1802A}" />
+				<Child Name="panelBack" Owner="{334596D8-C9E7-4050-BD1B-C5E5C6426452}" />
+				<Child Name="buttonClose" Owner="{56733E64-2EA8-4E98-8F04-307FCA8EFE54}" />
+				<Child Name="panelFileUpload" Owner="{C6FD0F78-0AC5-41F9-A1E0-9F239455AEF6}" />
+				<Child Name="navBreadcrumb" Owner="{6125F26B-A879-460B-AA50-9BC684E01F1D}">
+					<Child Name="textnodeTranslate" Owner="{75D30E00-B50F-4378-8F85-C2D37EE5A25B}" />
+				</Child>
+				<Child Name="textnodeSource" Owner="{6DA6E963-A04E-4741-BE56-94038322587B}" />
+				<Child Name="textnodeArrowDropDown" Owner="{F99340CF-3F31-4268-BBFD-C884A71D5ABD}" />
+				<Child Name="textnodeEnglish" Owner="{67978B9B-AE1B-4360-A565-751A3349E6E2}">
+					<Child Name="textnodeFrench" Owner="{FEA4AF79-44D3-4E82-B985-3423AB4563C5}" />
+					<Child Name="textnodeEnglish2" Owner="{F70CF9D4-219B-4A65-9F45-FCF26BA227D4}" />
+					<Child Name="textnodeSpanish" Owner="{2CADFC9D-AEBD-48D6-BE7C-0BAEB0FF0506}" />
+					<Child Name="textnodePortuguese" Owner="{42D090DC-2DA0-470D-B464-3DFFF1F24343}" />
+				</Child>
+				<Child Name="textnodeArrowDropDown2" Owner="{F70DAD4D-7B4C-4C03-BB2A-FC925AE55D2B}" />
+				<Child Name="panelClose" Owner="{5A32C6CB-EBA6-4C2A-929C-AE2CDD887819}" />
+				<Child Name="buttonIUnderstand" Owner="{3A0113A9-F4F3-4D1B-8783-394838799BC8}" />
+				<Child Name="panelClose2" Owner="{14F73324-A04D-44BF-94D3-9A0448C93446}" />
+				<Child Name="headerTranslate" Owner="{75496D36-D4BF-4217-9BE5-2BC493C03E1C}">
+					<Child Name="textnodeTermBases" Owner="{1875A62B-A635-4691-A3F0-F611F91C252B}" />
+				</Child>
+			</Child>
+			<Child Name="pageAccountSettingsAlexaTranslat" Owner="{60059658-A1CF-4110-A047-D29CB91429D6}">
+				<Child Name="textnodeFullName" Owner="{FF1E9311-A2DC-43F2-AA51-E39213DFCC09}" />
+				<Child Name="textnodeWissem" Owner="{A736F1E8-B649-491B-920F-3D4601AF187E}" />
+				<Child Name="buttonEdit" Owner="{D4DD8557-9FAF-41AA-81FE-A273AF2D943D}" />
+			</Child>
+			<Child Name="pageAudioVideoTranslationAlexaTr" Owner="{99AE5DB4-090D-4D8E-A101-3EDFFBE8DC05}">
+				<Child Name="panelTranslate" Owner="{53E83C96-AE17-4391-9E18-24C3DCDE775B}" />
+				<Child Name="panelSelectAFileOrDragAndDrop" Owner="{1D6A7257-B384-43D9-8C13-DF78188AC6F5}" />
+				<Child Name="textnodeEnglish" Owner="{37F57FB0-0330-4BEB-A746-ADFACF56DF3B}" />
+				<Child Name="cell" Owner="{3BB04F21-189C-41D1-ACE5-4AC9620B2E40}" />
+				<Child Name="textnodeArrowDropDown" Owner="{D0EE6B99-3A6D-48B2-BF17-CE57DDE46DA8}" />
+				<Child Name="textnodeCompleted" Owner="{EEF74386-6279-447D-A202-51504C540EC8}" />
+			</Child>
+			<Child Name="pageTextTranslationAlexaTranslat" Owner="{53E9A813-F554-484E-8531-1164221F6740}">
+				<Child Name="panelTranslation" Owner="{56FAA56C-3374-49FF-80A0-F06F102D1EC0}" />
+				<Child Name="textarea" Owner="{0605AF0D-4A87-48B0-B7FA-F8AD89398094}" />
+				<Child Name="textnodeTranslation" Owner="{0BC5DBA1-FA48-4A95-A8A6-AD6DA4B4D3DD}" />
+				<Child Name="panelTranslation2" Owner="{B09240B5-FB36-437C-9BB3-071F0FC89878}" />
+				<Child Name="buttonDetectLanguage" Owner="{0512A728-8E07-4C96-BECE-0448788AACB6}" />
+				<Child Name="panelMicNoneOutlined" Owner="{1DA2B884-F652-4ACD-9532-29D3123EDA4C}" />
+			</Child>
+			<Child Name="pageAudioVideoTranslationAlexaTr2" Owner="{D570F157-7C36-45FE-B675-0FFE6E8E25C5}">
+				<Child Name="panelSelectAFileOrDragAndDrop" Owner="{DC272324-EEC9-4BF8-8604-B0A2DBD7714E}" />
+			</Child>
+			<Child Name="pageTextTranslationAlexaTranslat2" Owner="{1A18D1FE-CC88-444F-96F3-4097FC2FEDA5}">
+				<Child Name="buttonEnglish" Owner="{9EA1F97B-7F3B-419E-B341-7366ACCD3E2F}" />
+				<Child Name="panelTranslation" Owner="{9623F83A-8F54-4C33-AAF1-F591F6601954}" />
+				<Child Name="panelTranslation2" Owner="{7713659C-D82A-4F51-9CE6-FEFD5DC58985}" />
+			</Child>
+			<Child Name="pageTermBasesAlexaTranslationsAI" Owner="{0332BEAF-94E7-4867-A137-E16492F077C2}">
+				<Child Name="textnodeTermBases" Owner="{32E8CC62-E122-48C7-98DC-6A990F55351A}" />
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{A57903AF-0526-42FA-A185-5955EEEF5139}">
+			<Child Name="wndShell_SecondaryTrayWnd" Owner="{241F3A2C-AA38-4CB7-9917-B58EA8EA5277}">
+				<Child Name="DesktopWindowXamlSource" Owner="{704B6275-B494-486D-98A2-C3884484AA8C}" />
+			</Child>
+			<Child Name="wndShell_TrayWnd" Owner="{69DF753C-215C-4EF8-A370-62A18495CBEB}">
+				<Child Name="DesktopWindowXamlSource" Owner="{8AA1FAF9-1692-4201-9C72-A0A5B9243714}" />
+			</Child>
+		</Child>
+		<Child Name="brave" Owner="{51CE5D30-E7EA-4061-BE89-A6FB6A21BC75}">
+			<Child Name="wndChrome_WidgetWin_1" Owner="{FF188523-A615-4EB6-9FC6-FD8FF018CCCD}" />
+		</Child>
+	</LogicalNodes>
+</Root>

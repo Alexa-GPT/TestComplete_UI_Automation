@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Pages">
+			<child name="Document_translation_page" key="{A684B763-51AB-48B3-ACEF-34D6B8874101}" path="Document_translation_page.js" />
+			<child name="Login_page" key="{0543580B-77FD-44FE-84D7-8052DE17AECC}" path="Login_page.js" />
+		</folder>
+		<folder name="FileComparison">
+			<child name="FileComparison" key="{C959606C-5DB0-40DE-987B-CA99C30C3FF4}" path="FileComparison.js" />
+			<child name="backUp" key="{16C2E754-1847-4AA3-9AF8-8B3D13DD734A}" path="backUp.js" />
+			<child name="CompraingDocxGeneratingHtml" key="{687103C2-C33F-417F-9071-F9235471A381}" path="CompraingDocxGeneratingHtml.js" />
+			<child name="pptxComparison" key="{D19B5044-987E-4EA2-8EF9-9057D0BDAC7F}" path="pptxComparison.js" />
+			<child name="ComparingDocxGenratingPDF" key="{C45282B6-74B6-47DF-88AA-8E90D62B3C78}" path="ComparingDocxGenratingPDF.js" />
+		</folder>
+		<child name="A_I_Online_Login_stepDefinition" key="{417F6115-2D67-420E-814D-334279655BBB}" path="A_I_Online_Login_stepDefinition.js" />
+		<child name="A_I_Online_DocTranslations_stepDefintion" key="{9E1F7CA4-8A9C-475A-9C91-3CD87B1398AA}" path="A_I_Online_DocTranslations_stepDefintion.js" />
+	</children>
+</Root>

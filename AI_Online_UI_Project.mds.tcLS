@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="logs">
+				<Prp name="key" type="S" value="{43A87B56-6E72-416F-8597-3D3423397F29}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables">
+				<Node name="datav4">
+					<Node name="var0">
+						<Prp name="name" type="S" value="betaUsername"/>
+					</Node>
+					<Node name="var1">
+						<Prp name="name" type="S" value="urlEN"/>
+					</Node>
+					<Node name="var10">
+						<Prp name="name" type="S" value="devUsername"/>
+					</Node>
+					<Node name="var11">
+						<Prp name="name" type="S" value="devPassword"/>
+					</Node>
+					<Node name="var12">
+						<Prp name="name" type="S" value="environment"/>
+					</Node>
+					<Node name="var13">
+						<Prp name="name" type="S" value="EmailDev"/>
+					</Node>
+					<Node name="var14">
+						<Prp name="name" type="S" value="browser"/>
+					</Node>
+					<Node name="var15">
+						<Prp name="name" type="S" value="expectedAlertMsgs"/>
+					</Node>
+					<Node name="var16">
+						<Prp name="name" type="S" value="randomTestEmail"/>
+					</Node>
+					<Node name="var17">
+						<Prp name="name" type="S" value="devUrl"/>
+					</Node>
+					<Node name="var18">
+						<Prp name="name" type="S" value="betaUrl"/>
+					</Node>
+					<Node name="var19">
+						<Node name="value">
+							<Prp name="boolvalue" type="B" value="0"/>
+						</Node>
+						<Prp name="name" type="S" value="shouldBeAutoFilled"/>
+					</Node>
+					<Node name="var2">
+						<Prp name="name" type="S" value="betaPassword"/>
+					</Node>
+					<Node name="var20">
+						<Prp name="name" type="S" value="docTranslationFolder"/>
+					</Node>
+					<Node name="var21">
+						<Prp name="name" type="S" value="outputFilePath"/>
+					</Node>
+					<Node name="var22">
+						<Prp name="name" type="S" value="fullNameElement"/>
+					</Node>
+					<Node name="var23">
+						<Prp name="name" type="S" value="mediaFolder"/>
+					</Node>
+					<Node name="var24">
+						<Prp name="name" type="S" value="fileNotFound"/>
+					</Node>
+					<Node name="var25">
+						<Prp name="name" type="S" value="text_translation"/>
+					</Node>
+					<Node name="var26">
+						<Prp name="name" type="S" value="TmTbPackage"/>
+					</Node>
+					<Node name="var27">
+						<Prp name="name" type="S" value="EmailUae"/>
+					</Node>
+					<Node name="var3">
+						<Prp name="name" type="S" value="urlFR"/>
+					</Node>
+					<Node name="var4">
+						<Prp name="name" type="S" value="urlES"/>
+					</Node>
+					<Node name="var5">
+						<Prp name="name" type="S" value="expectedLogoutMsgs"/>
+					</Node>
+					<Node name="var6">
+						<Prp name="name" type="S" value="contactEN"/>
+					</Node>
+					<Node name="var7">
+						<Prp name="name" type="S" value="contactFR"/>
+					</Node>
+					<Node name="var8">
+						<Prp name="name" type="S" value="contactES"/>
+					</Node>
+					<Node name="var9">
+						<Prp name="name" type="S" value="EmailBeta"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="4"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
+	</Node>
+</Nodes>

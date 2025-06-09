@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scenarios>
+	<Feature Path="A.I.Online-Login_feature.feature" />
+	<Feature Path="A.I_Online-DocTranslation_feature.feature" />
+	<Feature Path="A.I.Online-MediaTranslation_feature.feature" />
+	<Feature Path="A.I.Online-Text_Translation_feature.feature" />
+</Scenarios>
